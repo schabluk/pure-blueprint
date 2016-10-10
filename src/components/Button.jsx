@@ -39,9 +39,7 @@ Button.defaultProps = {
   }
 }
 
-/**
- * The displayName property is used in debugging messages.
- */
+// The displayName property is used in debugging messages.
 Button.displayName = 'Button'
 
 export default Button
