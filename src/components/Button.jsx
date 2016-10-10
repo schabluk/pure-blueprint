@@ -16,9 +16,9 @@ const _handleClick = (onClick, event) => {
  * given the same props. That makes it easy to test and maintain.
  * For brevity, it is defined as a function, rather than a class.
  *
- * There should be no 'contextType' nor 'defaultProps'
- * as they can mutate the state. The default props
- * can be passed as argument defaults.
+ * There should be no 'contextType' nor 'defaultProps',
+ * as they can mutate function state. The default props
+ * can be passed as default function parameters.
  *
  * Props are clearly definded using Object Destructuring.
  */
