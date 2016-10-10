@@ -6,16 +6,23 @@ npm i -S pure-blueprint
 ```
 In React component:
 ```
-import React, { Component } from 'react';
-import {Hello} from 'pure-blueprint'
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import {Button} from 'pure-blueprint'
 
 class App extends Component {
   render() {
     return (
-      <Hello name="Anna" />
-    );
+      <Button text='Click Me' />
+    )
   }
 }
+
+ReactDOM.render(
+  <Button text='Click Me' />,
+  document.body
+)
+
 ```
 ### Clone and Setup
 Clone the repository and install dependencies.
