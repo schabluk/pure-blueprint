@@ -9,6 +9,9 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
+    root: [
+      path.resolve(paths.app)
+    ],
     extensions: ['', '.js', '.jsx', '.scss']
   },
   module: moduleConfig,

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
-import {Button, ListGroup} from './index'
+import {Button, ListGroup} from 'index'
 
 const listItems = [
   {text: 'Cras justo odio', class: 'active'},
