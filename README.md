@@ -5,7 +5,7 @@ Blueprint of a Pure Component
 npm i -S pure-blueprint
 ```
 In React component:
-```
+```javascript
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import {Button} from 'pure-blueprint'
